@@ -2,8 +2,6 @@
 
 A small, free junk cleaner for Windows 11. It clears caches and temporary files, tells you honestly what it deleted, and collects nothing about you.
 
-> **Status:** not released yet. The first version will appear under [Releases](https://github.com/hightarun/SysBroom-releases/releases).
-
 ## Download
 
 Go to **[Releases → Latest](https://github.com/hightarun/SysBroom-releases/releases/latest)** and download `SysBroom-setup.exe`.
