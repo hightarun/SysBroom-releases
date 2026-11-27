@@ -19,7 +19,12 @@ Go to **[Releases → Latest](https://github.com/hightarun/SysBroom-releases/rel
 | Temporary files (older than 24 hours) | Chrome cache | Recycle Bin |
 | Thumbnail cache | Edge cache | |
 | Shader cache | Firefox cache | |
-| Crash dumps (off by default) | | |
+| Crash dumps (off by default) | Brave cache | |
+| | Opera and Opera GX cache | |
+| | Vivaldi cache | |
+| | Chromium cache | |
+
+Only the browsers you actually use are listed. The scan looks for each browser's data folder, so it finds the browser wherever it's installed.
 
 You see the size of each item before anything is deleted, and you choose what to clean. Emptying the Recycle Bin is the one step that can't be undone, and the Clean button says so.
 
