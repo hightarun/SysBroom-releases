@@ -14,23 +14,25 @@ Go to **[Releases → Latest](https://github.com/hightarun/SysBroom-releases/rel
 
 ## What it cleans
 
-| Windows | Browsers | System |
-|---|---|---|
-| Temporary files (older than 24 hours) | Chrome cache | Recycle Bin |
-| Thumbnail cache | Edge cache | |
-| Shader cache | Firefox cache | |
-| Crash dumps (off by default) | Brave cache | |
-| | Opera and Opera GX cache | |
-| | Vivaldi cache | |
-| | Chromium cache | |
+| Windows | Browsers | Apps | Developer caches (off by default) | System |
+|---|---|---|---|---|
+| Temporary files (older than 24 hours) | Chrome cache | Discord cache | npm cache | Recycle Bin (off by default) |
+| Thumbnail cache | Edge cache | VS Code cache | pip cache | |
+| Shader cache | Firefox cache | Steam web cache | NuGet download cache | |
+| Crash dumps (off by default) | Brave cache | Teams cache | Gradle cache | |
+| | Opera and Opera GX cache | | | |
+| | Vivaldi cache | | | |
+| | Chromium cache | | | |
 
-Only the browsers you actually use are listed. The scan looks for each browser's data folder, so it finds the browser wherever it's installed.
+Only the browsers, apps and developer tools you actually use are listed. The scan looks for each one's data folder, so it finds a browser wherever it's installed.
 
-You see the size of each item before anything is deleted, and you choose what to clean. Emptying the Recycle Bin is the one step that can't be undone, and the Clean button says so.
+You see the size of each item before anything is deleted, and you choose what to clean. Only what's harmless is ticked at first: caches and temporary files that rebuild themselves. Emptying the Recycle Bin is the one step that can't be undone, so it starts unticked, and the Clean button says so when you tick it. Developer caches start unticked too, because your next build downloads them again.
 
-**Never touched:** your documents, Desktop, Downloads, pictures, music and videos, and any browser cookies, passwords, history, sessions or saved form data. If a browser is open, SysBroom cleans what it safely can and tells you what it skipped. It never closes your programs.
+**Never touched:** your documents, Desktop, Downloads, pictures, music and videos, and any browser or app cookies, passwords, history, sign-ins, messages, sessions or saved form data. If an app is open, SysBroom cleans what it safely can and tells you what it skipped. It never closes your programs.
 
 ## What it doesn't do
+
+**Runs on your PC · No account · Nothing in the background · Closing it quits it.**
 
 - **No background process.** No tray icon, service or scheduled task. It runs only while its window is open.
 - **No telemetry**, analytics, ads or accounts.
